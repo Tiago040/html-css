@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('/desafio010/fontes/idroid.otf') format('opentype');
+}
+
+
+
+body {
+    background-color: #84e1ad;
+    margin: 0;
+    text-indent: 20px;
+}
+
+header {
+    background-image: linear-gradient(to top, #1a5c38, #3cd983);
+    margin-top: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    
+    
+}
+
+#menu {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#menu > h1 {
+    margin: 0;
+}
+
+.links > a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-color: white;
+    margin:0 400px 100px 400px;
+    padding: 10px 20px 200px 20px;
+}
+
+.corpo > h2 {
+    text-align: center;
+    font-family: 'android', Times, serif;
+    font-weight: lighter;
+}
+
+.corpo > h3 {
+    font-family: 'android', Times, serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #aeeecb, white);
+    color: #2b6a47;
+}
+ .imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ #video {
+    background-color: #2FA866;
+ }
+
+ .video {
+    display: block;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    
+ }
+
+.final {
+    background-color: #c5ebd6;
+    border-radius: 10px;
+}
+.final > h4 {
+    background-color: #2FA866;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    margin: 0;
+    padding: 10px 10px 10px 0;
+}
+
+.final > p {
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.final > p > a {
+    text-decoration: none;
+    color: #0fc963;
+}
