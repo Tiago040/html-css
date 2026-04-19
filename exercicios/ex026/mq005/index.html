@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="icon" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Querires</h2>
+            <p>Levando-se em consideração a enorme dimensão da floresta Amazônia, conhecer todas as espécies de animais não é algo simples. É amplamente aceito que a fauna e a flora amazônica não foram documentadas em sua totalidade, não há uma contagem total para a região e novas espécies são frequentemente inventariadas¹. A Amazônia é o bioma brasileiro com maior riqueza de espécies da fauna, abrigando mais de 73% das espécies de mamíferos e 80% das de aves existentes no território nacional².</p>
+
+            <p>São cerca de trinta milhões de espécies animais³, sem contar com as ainda não catalogadas. Não há uma definição exata das quantidades de animais, uma vez que o bioma se estende por vários países. No Brasil, são ao menos 311 mamíferos, 1.300 aves, 273 répteis, 232 anfíbios e 1800 peixes continentais⁴. Nos rios podem ser encontrados mamíferos como o boto cor-de-rosa e o tucuxi, o peixe-boi da Amazônia, ariranhas e lontras. Em meio à floresta, pode-se encontrar onças pintadas (ameaçadas de extinção), tamanduás, e uma quantidade enorme de primatas como macacos-prego, macacos-aranha, curiús, macacos-barrigudos e guaribas. Segundo o ICMBio, o bioma abriga 10% das espécies de primatas do mundo.</p>
+
+            <p>Há uma grande diversidade de peixes no bioma, como o pirarucu, piraíba, piranha, piramboia, peixe-borboleta, tubarões, enguia elétrica, e arraias. A variedade de peixes é tão grande, que o bioma contém 85% das espécies de toda a América do Sul, são aproximadamente 2.0005. Os répteis também são abundantes na Amazônia: jacarés (incluindo o jacaré-açu – o maior de todos os jacarés, com tamanhos de até 6 metros de comprimento), tartarugas, lagartos e serpentes, como a sucuri, a famosa Anaconda, que já foi protagonista de filmes e que assusta pelo tamanho gigantesco que pode alcançar.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+    </script>
+</body>
+</html>
