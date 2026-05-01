@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+header > nav{
+    flex-flow: column wrap;
+    height: 155px;
+    width: 90vw;
+    padding-top: 5px;
+    border: none;
+}
+
+header {
+    flex-flow: column nowrap;
+    
+}
+
+header > h1 {
+    flex-basis: 80px;
+    padding-top: 10px;
+    border: none;
+}
