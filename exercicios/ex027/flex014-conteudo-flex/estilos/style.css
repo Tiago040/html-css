@@ -52,7 +52,6 @@ article.media-text {
 
 article > div.text {
     flex: 1 1 500px;
-    padding: 0px 8px;
 }
 
 article > div.media {
@@ -64,12 +63,11 @@ article > div.media {
 div.media > img {
     display: block;
     margin: auto;
-    padding: 20px 0px;
+    width: 300px;
 }
 
 div.media > iframe {
     display: block;
     margin: auto;
-    width: 85%;
-    height: 40vh;
+    width: 90%;
 }
