@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
-    height: 100vw;
+    
 }
 
 p {
@@ -19,10 +19,11 @@ p {
 }
 
 h1, h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 1.1em;
     text-align: left;
 }
+
 
 
 header, section.normal {
@@ -31,9 +32,8 @@ header, section.normal {
 }
 
 section.flex-content {
-    background-color: lightcyan;
     padding: 20px;
-    width: 100%;
+    background-color: lightcyan;
     
     display: flex;
     flex-flow: column nowrap;
