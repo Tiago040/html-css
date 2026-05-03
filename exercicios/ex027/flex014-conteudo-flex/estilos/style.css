@@ -59,13 +59,16 @@ article > div.media {
     flex: 1 0 400px;
 }
 
-div.media {
-    display: flex;
-    justify-content: center;
-    width: 85vw;
-}
+
 
 div.media > img {
+    display: block;
+    margin: auto;
     padding: 20px 0px;
 }
 
+div.media > iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
