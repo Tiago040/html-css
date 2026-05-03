@@ -13,21 +13,59 @@ body {
     height: 100vw;
 }
 
-p, h1, h2 {
+p {
     margin-bottom: 10px;
     text-align: justify;
-    text-indent: 5px;
 }
 
-header {
-    padding: 20px;
+h1, h2 {
+    margin-bottom: 10px;
+    line-height: 1.1em;
 }
 
-section.normal {
+
+header, section.normal {
     padding: 20px;
+    text-align: left;
 }
 
 section.flex-content {
-     background-color: lightcyan;
-     padding: 20px;
+    background-color: lightcyan;
+    padding: 20px;
+    
+    display: flex;
+    flex-flow: column nowrap;
 }
+
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+    padding: 0px 8px;
+}
+
+article > div.media {
+    flex: 1 0 400px;
+}
+
+div.media {
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+}
+
+div.media > img {
+    padding: 20px 0px;
+}
+
